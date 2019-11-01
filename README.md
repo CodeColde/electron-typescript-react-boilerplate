@@ -1,6 +1,5 @@
 # electron-typescript-react-boilerplate
-**Quick start your typescript react electron application by cloning and installing**
-===
+Quick start your typescript react electron application by cloning and installing
 
 ## Install guide 
 
