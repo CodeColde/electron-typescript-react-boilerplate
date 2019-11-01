@@ -1,0 +1,50 @@
+{
+  "name": "renderer",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/main/start.ts",
+  "build": {
+    "appId": "any.id",
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "category": "app.category.type"
+    },
+    "mac": {
+      "category": "app.category.type"
+    }
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.3",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.3",
+    "typescript": "3.6.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
